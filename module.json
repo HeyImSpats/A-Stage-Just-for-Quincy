@@ -1,0 +1,31 @@
+{
+  "id": "a-stage-just-for-quincy",
+  "title": "A Stage Just for Quincy",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "url":"https://github.com/HeyImSpats/A-Stage-Just-for-Quincy",
+  "manifest": "https://github.com/HeyImSpats/A-Stage-Just-for-Quincy/releases/latest/download/module.json",
+  "download":"https://github.com/HeyImSpats/A-Stage-Just-for-Quincy/releases/latest/download/a-stage-just-for-quincy.zip",
+  "authors": [
+    {
+      "name": "Spats",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "a-stage-just-for-quincy",
+      "label": "A Stage Just for Quincy",
+      "path": "packs/a-stage-just-for-quincy",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ]
+}
